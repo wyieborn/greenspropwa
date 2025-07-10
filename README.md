@@ -40,4 +40,3 @@ Built with **Blazor WebAssembly**, **ASP.NET Core**, and **PostgreSQL**, the app
 
 ```bash
 git clone https://github.com/yourusername/GreensProPWA.git
-cd Gre
