@@ -11,7 +11,7 @@ Built with **Blazor WebAssembly**, **ASP.NET Core**, and **PostgreSQL**, the app
 - ✅ **Event Management** – View and manage upcoming events
 - ✅ **Staff Training Module** – Record training with "trained by" and digital signatures
 - ✅ **Greenskeeping Tasks** – Track equipment usage and maintenance
-- ✅ **User Authentication & Roles** – Admin and user dashboards via ASP.NET Core Identity
+- ✅ **User Authentication & Roles** – Admin and user dashboards 
 - ✅ **Library & Resource Access** – Upload and view documents
 - ✅ **Mobile-Optimized PWA** – Installable on phones/tablets
 
@@ -22,7 +22,7 @@ Built with **Blazor WebAssembly**, **ASP.NET Core**, and **PostgreSQL**, the app
 - **Frontend**: Blazor WebAssembly (.NET 6)
 - **Backend**: ASP.NET Core Web API
 - **Database**: PostgreSQL
-- **Authentication**: ASP.NET Core Identity
+- **Authentication**: JWT (JSON Web Token) with claims-based role management 
 - **Styling**: Tailwind CSS
 - **Deployment**: Docker + Docker Hub
 
