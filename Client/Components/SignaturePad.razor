@@ -1,0 +1,30 @@
+﻿<canvas id="signature-pad" width="400" height="150"
+        style="border: 1px solid #ccc; touch-action: none;"></canvas>
+
+<div class="mt-2 flex gap-2">
+    <button @onclick="Clear" class="px-3 py-1 bg-gray-500 text-white rounded">Clear</button>
+</div>
+
+@code {
+    [Parameter] public EventCallback<string> OnSignatureCaptured { get; set; }
+
+    [Inject] private IJSRuntime JS { get; set; } = default!;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("initSignaturePad");
+        }
+    }
+
+    public async Task<string> GetSignatureAsync()
+    {
+        return await JS.InvokeAsync<string>("getSignatureImage");
+    }
+
+    private async Task Clear()
+    {
+        await JS.InvokeVoidAsync("clearSignaturePad");
+    }
+}

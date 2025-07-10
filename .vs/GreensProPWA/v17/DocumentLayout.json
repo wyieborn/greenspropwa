@@ -1,0 +1,1061 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\trainingform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\trainingform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\shared\\eventlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\shared\\eventlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\controllers\\issuereportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\controllers\\issuereportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\issuereport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\issuereport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\addequipment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\addequipment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\equipment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\equipment.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\shared\\entity\\issuereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|solutionrelative:shared\\entity\\issuereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\shared\\entity\\equipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|solutionrelative:shared\\entity\\equipmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\traininglist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\traininglist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\email.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\email.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\shared\\quicklinks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\shared\\quicklinks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\manageusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\manageusers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\services\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\services\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\helper\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\helper\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\provider\\jwtauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\provider\\jwtauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\services\\authenticationheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\services\\authenticationheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\resources.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\resources.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\adminevent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\adminevent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\shared\\dto\\trainerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|solutionrelative:shared\\dto\\trainerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\shared\\entity\\training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|solutionrelative:shared\\entity\\training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\controllers\\trainingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\controllers\\trainingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\wwwroot\\js\\signature.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\wwwroot\\js\\signature.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\components\\signaturepad.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\components\\signaturepad.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\shared\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|solutionrelative:shared\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\components\\inputfield.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\components\\inputfield.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\shared\\entity\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|solutionrelative:shared\\entity\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\shared\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|solutionrelative:shared\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\shared\\navmenuadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\shared\\navmenuadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\shared\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\shared\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\shared\\greenspropwa.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E9FF51DA-6BB0-4C1F-B8C2-6BD799C9D12E}|Shared\\GreensProPWA.Shared.csproj|solutionrelative:shared\\greenspropwa.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\greenspropwa.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\greenspropwa.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\client\\shared\\weatherwidget.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E05755D-8704-42AD-AC8F-A9B7E8FBB712}|Client\\GreensProPWA.Client.csproj|solutionrelative:client\\shared\\weatherwidget.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|c:\\users\\wyieb\\source\\repos\\greenspropwa\\server\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54220BC-74A7-4AC0-B0A1-A6E3460B3F3C}|Server\\GreensProPWA.Server.csproj|solutionrelative:server\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Index.razor",
+              "RelativeToolTip": "Client\\Pages\\Index.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T23:08:43.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Equipment.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Equipment.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Equipment.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Equipment.razor",
+              "RelativeToolTip": "Client\\Pages\\Equipment.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T03:19:45.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Server\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Server\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwCYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:58:40.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IssueReportController.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\IssueReportController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\IssueReportController.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\IssueReportController.cs",
+              "RelativeToolTip": "Server\\Controllers\\IssueReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T01:43:03.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Client\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Client\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T01:45:23.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventList.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\EventList.razor",
+              "RelativeDocumentMoniker": "Client\\Shared\\EventList.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\EventList.razor",
+              "RelativeToolTip": "Client\\Shared\\EventList.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T03:09:32.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Login.razor",
+              "RelativeToolTip": "Client\\Pages\\Login.razor",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T23:32:26.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Logout.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Logout.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Logout.razor",
+              "RelativeToolTip": "Client\\Pages\\Logout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T01:10:24.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainingForm.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\TrainingForm.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\TrainingForm.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\TrainingForm.razor",
+              "RelativeToolTip": "Client\\Pages\\TrainingForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T20:54:46.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Client\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Client\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIIAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T01:42:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Admin.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Admin.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Admin.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Admin.razor",
+              "RelativeToolTip": "Client\\Pages\\Admin.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T21:53:05.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminLayout.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\AdminLayout.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\AdminLayout.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\AdminLayout.razor",
+              "RelativeToolTip": "Client\\Pages\\AdminLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T22:35:43.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IssueReport.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\IssueReport.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\IssueReport.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\IssueReport.razor",
+              "RelativeToolTip": "Client\\Pages\\IssueReport.razor",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHEAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T01:45:00.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TrainingList.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\TrainingList.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\TrainingList.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\TrainingList.razor",
+              "RelativeToolTip": "Client\\Pages\\TrainingList.razor",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T23:54:44.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IssueReport.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\IssueReport.cs",
+              "RelativeDocumentMoniker": "Shared\\Entity\\IssueReport.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\IssueReport.cs",
+              "RelativeToolTip": "Shared\\Entity\\IssueReport.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T01:37:01.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddEquipment.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\AddEquipment.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\AddEquipment.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\AddEquipment.razor",
+              "RelativeToolTip": "Client\\Pages\\AddEquipment.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T03:32:44.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EquipmentType.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\EquipmentType.cs",
+              "RelativeDocumentMoniker": "Shared\\Entity\\EquipmentType.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\EquipmentType.cs",
+              "RelativeToolTip": "Shared\\Entity\\EquipmentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:25:50.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:40:01.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\_Imports.razor",
+              "RelativeToolTip": "Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T01:43:58.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QuickLinks.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\QuickLinks.razor",
+              "RelativeDocumentMoniker": "Client\\Shared\\QuickLinks.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\QuickLinks.razor",
+              "RelativeToolTip": "Client\\Shared\\QuickLinks.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T21:57:15.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManageUsers.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\ManageUsers.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\ManageUsers.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\ManageUsers.razor",
+              "RelativeToolTip": "Client\\Pages\\ManageUsers.razor",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T21:54:42.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Email.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Email.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Email.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Email.razor",
+              "RelativeToolTip": "Client\\Pages\\Email.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T02:13:39.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Services\\Helper.cs",
+              "RelativeDocumentMoniker": "Server\\Services\\Helper.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Services\\Helper.cs",
+              "RelativeToolTip": "Server\\Services\\Helper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:23:17.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JwtTokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Helper\\JwtTokenHelper.cs",
+              "RelativeDocumentMoniker": "Client\\Helper\\JwtTokenHelper.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Helper\\JwtTokenHelper.cs",
+              "RelativeToolTip": "Client\\Helper\\JwtTokenHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:29:14.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthenticationHeaderHandler.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Services\\AuthenticationHeaderHandler.cs",
+              "RelativeDocumentMoniker": "Client\\Services\\AuthenticationHeaderHandler.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Services\\AuthenticationHeaderHandler.cs",
+              "RelativeToolTip": "Client\\Services\\AuthenticationHeaderHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:51:55.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JwtAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Provider\\JwtAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "Client\\Provider\\JwtAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Provider\\JwtAuthenticationStateProvider.cs",
+              "RelativeToolTip": "Client\\Provider\\JwtAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:27:16.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\App.razor",
+              "RelativeDocumentMoniker": "Client\\App.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\App.razor",
+              "RelativeToolTip": "Client\\App.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T23:47:00.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwCwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T23:23:04.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Seeder.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Seeder.cs",
+              "RelativeDocumentMoniker": "Server\\Seeder.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Seeder.cs",
+              "RelativeToolTip": "Server\\Seeder.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T00:53:47.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T21:56:18.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RedirectToLogin.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\RedirectToLogin.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\RedirectToLogin.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\RedirectToLogin.razor",
+              "RelativeToolTip": "Client\\Pages\\RedirectToLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T00:00:11.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Training.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\Training.cs",
+              "RelativeDocumentMoniker": "Shared\\Entity\\Training.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\Training.cs",
+              "RelativeToolTip": "Shared\\Entity\\Training.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T21:37:03.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Server\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:24:20.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Resources.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Resources.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Resources.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Resources.razor",
+              "RelativeToolTip": "Client\\Pages\\Resources.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T01:02:20.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Server\\Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T23:21:10.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdminEvent.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\AdminEvent.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\AdminEvent.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\AdminEvent.razor",
+              "RelativeToolTip": "Client\\Pages\\AdminEvent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T22:13:45.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TrainerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\DTO\\TrainerDTO.cs",
+              "RelativeDocumentMoniker": "Shared\\DTO\\TrainerDTO.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\DTO\\TrainerDTO.cs",
+              "RelativeToolTip": "Shared\\DTO\\TrainerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T20:54:00.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Server\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T03:06:41.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TrainingController.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\TrainingController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\TrainingController.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\TrainingController.cs",
+              "RelativeToolTip": "Server\\Controllers\\TrainingController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T20:49:37.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EquipmentController.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\EquipmentController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\EquipmentController.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\EquipmentController.cs",
+              "RelativeToolTip": "Server\\Controllers\\EquipmentController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T22:30:45.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\wwwroot\\index.html",
+              "RelativeToolTip": "Client\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-09T03:53:25.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "Shared\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\User.cs",
+              "RelativeToolTip": "Shared\\Entity\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T21:46:47.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SignaturePad.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Components\\SignaturePad.razor",
+              "RelativeDocumentMoniker": "Client\\Components\\SignaturePad.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Components\\SignaturePad.razor",
+              "RelativeToolTip": "Client\\Components\\SignaturePad.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T22:04:24.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "signature.js",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\wwwroot\\js\\signature.js",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\js\\signature.js",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\wwwroot\\js\\signature.js",
+              "RelativeToolTip": "Client\\wwwroot\\js\\signature.js",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-09T22:05:24.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "InputField.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Components\\InputField.razor",
+              "RelativeDocumentMoniker": "Client\\Components\\InputField.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Components\\InputField.razor",
+              "RelativeToolTip": "Client\\Components\\InputField.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T21:35:27.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\Event.cs",
+              "RelativeDocumentMoniker": "Shared\\Entity\\Event.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\Entity\\Event.cs",
+              "RelativeToolTip": "Shared\\Entity\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:55:12.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Shared\\DTO\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "Shared\\DTO\\LoginRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T23:22:17.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NavMenuAdmin.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\NavMenuAdmin.razor",
+              "RelativeDocumentMoniker": "Client\\Shared\\NavMenuAdmin.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\NavMenuAdmin.razor",
+              "RelativeToolTip": "Client\\Shared\\NavMenuAdmin.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T01:46:26.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Dockerfile",
+              "RelativeDocumentMoniker": "Server\\Dockerfile",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Dockerfile",
+              "RelativeToolTip": "Server\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-09T03:45:41.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T01:39:43.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "Server\\Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Services\\WeatherService.cs",
+              "RelativeToolTip": "Server\\Services\\WeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T23:19:30.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Pages\\FetchData.razor",
+              "RelativeToolTip": "Client\\Pages\\FetchData.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T01:41:11.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EmptyLayout.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\EmptyLayout.razor",
+              "RelativeDocumentMoniker": "Client\\Shared\\EmptyLayout.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\EmptyLayout.razor",
+              "RelativeToolTip": "Client\\Shared\\EmptyLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T02:08:21.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "GreensProPWA.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\GreensProPWA.Shared.csproj",
+              "RelativeDocumentMoniker": "Shared\\GreensProPWA.Shared.csproj",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Shared\\GreensProPWA.Shared.csproj",
+              "RelativeToolTip": "Shared\\GreensProPWA.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T23:40:10.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Server\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Server\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T23:46:24.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-09T00:11:44.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-06T23:15:22.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GreensProPWA.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\GreensProPWA.Server.csproj",
+              "RelativeDocumentMoniker": "Server\\GreensProPWA.Server.csproj",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\GreensProPWA.Server.csproj",
+              "RelativeToolTip": "Server\\GreensProPWA.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-08T22:50:13.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "WeatherWidget.razor",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\WeatherWidget.razor",
+              "RelativeDocumentMoniker": "Client\\Shared\\WeatherWidget.razor",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Client\\Shared\\WeatherWidget.razor",
+              "RelativeToolTip": "Client\\Shared\\WeatherWidget.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T23:23:39.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T23:02:38.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Server\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\wyieb\\source\\repos\\GreensProPWA\\Server\\Services\\EventService.cs",
+              "RelativeToolTip": "Server\\Services\\EventService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T02:24:53.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

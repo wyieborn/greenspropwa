@@ -1,0 +1,10 @@
+﻿
+<label class="block text-sm font-medium text-gray-700">@Label</label>
+<InputText @bind-Value="Value"
+           class="mt-1 block w-full border rounded p-2" />
+
+@code {
+    [Parameter] public string Label { get; set; } = "";
+    [Parameter] public string? Value { get; set; }
+    [Parameter] public EventCallback<string?> ValueChanged { get; set; }
+}

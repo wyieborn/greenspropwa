@@ -1,0 +1,50 @@
+﻿@* <div>
+    <h2 class="text-xl font-semibold mb-2">Upcoming Events</h2>
+    <ul class="bg-white divide-y rounded-lg shadow">
+        @foreach (var ev in Events)
+        {
+            <li class="p-4 hover:bg-gray-50">📅 @ev</li>
+        }
+    </ul>
+</div>
+
+@code {
+    [Parameter] public List<string> Events { get; set; } = new();
+} *@
+
+@page "/events"
+@using GreensProPWA.Shared.Entity
+@inject HttpClient Http
+
+<h3>Upcoming Events</h3>
+
+@if (events == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (!events.Any())
+{
+    <p>No events found.</p>
+}
+else
+{
+    <ul>
+        @foreach (var evt in events)
+        {
+            <li>
+                <strong>@evt.Title</strong><br />
+                @evt.Description<br />
+                <em>@evt.Location</em> — @evt.Date.ToShortDateString()
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    [Parameter] public List<Event> events { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        events = await Http.GetFromJsonAsync<List<Event>>("api/events");
+    }
+}

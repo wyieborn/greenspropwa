@@ -1,0 +1,105 @@
+﻿@page "/admin/events"
+@inject HttpClient Http
+@using GreensProPWA.Shared.Entity
+
+<h3 class="text-3xl font-extrabold mb-6 text-gray-800">Manage Events</h3>
+
+@if (events == null)
+{
+    <p class="text-gray-500">Loading...</p>
+}
+else
+{
+    <table class="min-w-full table-auto border-collapse border border-gray-300 shadow-sm">
+        <thead class="bg-gray-100">
+            <tr>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">Title</th>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">Date</th>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">Location</th>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="bg-white divide-y divide-gray-200">
+            @foreach (var e in events)
+            {
+                <tr>
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">@e.Title</td>
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">@e.Date.ToShortDateString()</td>
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">@e.Location</td>
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">
+                        <button @onclick="() => EditEvent(e)" class="text-blue-600 hover:text-blue-800 font-semibold mr-3">Edit</button>
+                        <button @onclick="() => DeleteEvent(e.Id)" class="text-red-600 hover:text-red-800 font-semibold">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<hr class="my-8 border-gray-300" />
+
+<h4 class="text-2xl font-semibold text-gray-800 mb-4">@((editingEvent.Id == 0) ? "Add New Event" : "Edit Event")</h4>
+
+<EditForm Model="@editingEvent" OnValidSubmit="SaveEvent" class="max-w-md space-y-4">
+    <InputText @bind-Value="editingEvent.Title" placeholder="Title"
+               class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+
+    <InputText @bind-Value="editingEvent.Location" placeholder="Location"
+               class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+
+    <InputDate @bind-Value="editingEvent.Date"
+               class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+
+    <InputTextArea @bind-Value="editingEvent.Description" placeholder="Description"
+                   class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" rows="3" />
+
+    <button type="submit"
+            class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-md font-semibold transition duration-200">
+        @((editingEvent.Id == 0) ? "Add" : "Update")
+    </button>
+</EditForm>
+
+@code {
+    private List<Event> events = new();
+    private Event editingEvent = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        events = await Http.GetFromJsonAsync<List<Event>>("api/events") ?? new();
+    }
+
+    private async Task SaveEvent()
+    {
+        if (editingEvent.Id == 0)
+        {
+            var response = await Http.PostAsJsonAsync("api/events", editingEvent);
+            var created = await response.Content.ReadFromJsonAsync<Event>();
+            if (created != null) events.Add(created);
+        }
+        else
+        {
+            await Http.PutAsJsonAsync($"api/events/{editingEvent.Id}", editingEvent);
+        }
+
+        editingEvent = new();
+        events = await Http.GetFromJsonAsync<List<Event>>("api/events") ?? new();
+    }
+
+    private void EditEvent(Event evt)
+    {
+        editingEvent = new Event
+        {
+            Id = evt.Id,
+            Title = evt.Title,
+            Description = evt.Description,
+            Location = evt.Location,
+            Date = evt.Date
+        };
+    }
+
+    private async Task DeleteEvent(int id)
+    {
+        await Http.DeleteAsync($"api/events/{id}");
+        events = await Http.GetFromJsonAsync<List<Event>>("api/events") ?? new();
+    }
+}

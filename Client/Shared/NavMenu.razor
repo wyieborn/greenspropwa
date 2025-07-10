@@ -1,0 +1,158 @@
+﻿@* <div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">GreensProPWA</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/home" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Library
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Activities
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Training
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Ticket
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Email
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> LogOut
+            </NavLink>
+        </div>
+
+    </nav>
+</div> *@
+
+@* @code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+} *@
+<div class="top-row navbar navbar-dark bg-dark px-3 shadow-sm">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand fw-bold fs-5 text-success" href="">GreensProPWA</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-menu bg-dark text-white px-3 py-3 border-top border-secondary transition" @onclick="ToggleNavMenu" style="min-height: 100vh;">
+    <nav class="nav flex-column gap-2">
+        <div class="nav-item">
+            <NavLink class="nav-link text-white fw-semibold d-flex align-items-center gap-2"
+                     href="@HomeRoute" ActiveClass="active">
+                <span class="oi oi-home"></span> Home
+            </NavLink>
+
+        </div>
+
+        @if (IsAdmin)
+        {
+            <hr class="text-secondary my-2" />
+            <div class="text-uppercase small text-muted ms-1">Admin Panel</div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/admin/users" ActiveClass="active">
+                    <span class="oi oi-people"></span> User Control
+                </NavLink>
+            </div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/admin/events" ActiveClass="active">
+                    <span class="oi oi-calendar"></span> Event Management
+                </NavLink>
+            </div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/admin/trainings" ActiveClass="active">
+                    <span class="oi oi-calendar"></span> Training List
+                </NavLink>
+            </div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/admin/equipment" ActiveClass="active">
+                    <span class="oi oi-calendar"></span> Equipment
+                </NavLink>
+            </div>
+            <div class="nav-item">
+                <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/admin/analytics" ActiveClass="active">
+                    <span class="oi oi-calendar"></span> Analytics
+                </NavLink>
+            </div>
+        }
+        else
+        {
+            <hr class="text-secondary my-2" />
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/resources" ActiveClass="active">
+                    <span class="oi oi-book"></span> Resources
+                </NavLink>
+            </div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/training-record" ActiveClass="active">
+                    <span class="oi oi-book"></span> Training
+                </NavLink>
+            </div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/report-issue" ActiveClass="active">
+                    <span class="oi oi-book"></span> Ticket 
+                </NavLink>
+            </div>
+        }
+
+        <hr class="text-secondary my-2" />
+        <div class="nav-item">
+            <NavLink class="nav-link text-white d-flex align-items-center gap-2" href="/logout">
+                <span class="oi oi-account-logout"></span> Logout
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@code {
+    [Parameter]
+    public bool IsAdmin { get; set; }
+
+
+    private bool collapseNavMenu = true;
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : "collapse show";
+
+    private string HomeRoute => IsAdmin ? "/admin" : "/home";
+
+    private void ToggleNavMenu() => collapseNavMenu = !collapseNavMenu;
+
+}

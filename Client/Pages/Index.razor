@@ -1,0 +1,53 @@
+﻿@page "/home"
+@using GreensProPWA.Shared.Entity
+@using Microsoft.AspNetCore.Authorization
+@inject HttpClient Http
+
+@attribute [Authorize]
+<PageTitle>Home</PageTitle>
+
+<div class="max-w-5xl mx-auto p-6 space-y-6 text-gray-800">
+
+    <section>
+        <h1 class="text-4xl font-bold mb-1">Welcome, Robert 👋</h1>
+        <p class="text-gray-500 text-lg">Here’s what’s happening at your club today.</p>
+    </section>
+
+    <WeatherWidget TemperatureDisplay="🌤️ 25°C, Clear"
+                   Locations="Toronto, ON"
+                   IconUrl="https://www.weatherbit.io/static/img/icons/c01d.png" />
+
+    <EventList Events="events" />
+
+    <QuickLinks />
+
+    <section>
+        <h2 class="text-xl font-semibold mb-2">Notices & Announcements</h2>
+        <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded shadow">
+            ⚠️ 5:30 am start from July 7 to July 9.
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-xl font-semibold mb-2">Recent Activity</h2>
+        <ul class="list-disc pl-5 text-gray-700">
+            <li>✔️ Completed “Golf Swing Training” by Coach Alex</li>
+            <li>📖 Checked out “Mind Gym” from Library</li>
+        </ul>
+    </section>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+@* <script src="_framework/blazor.webassembly.js"></script> *@
+
+
+@code {
+    [Parameter]
+    public List<Event>? events { get; set; } = new();
+    // private List<Event> events = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        events = await Http.GetFromJsonAsync<List<Event>>("api/events") ?? new List<Event>();
+    }
+}

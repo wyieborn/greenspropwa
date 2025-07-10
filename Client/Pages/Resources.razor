@@ -1,0 +1,72 @@
+﻿@page "/resources"
+@using System.Net.Http
+@inject HttpClient Http
+
+<div class="max-w-5xl mx-auto px-4 py-8">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">📚 Resources & Downloads</h2>
+
+    <!-- Downloads Section -->
+    <div class="mb-10">
+        <h3 class="text-xl font-semibold text-gray-700 mb-4">📥 Downloadable Documents</h3>
+        <ul class="space-y-4">
+            @foreach (var doc in Documents)
+            {
+                <li class="flex items-center justify-between bg-white shadow border rounded p-4 hover:bg-gray-50 transition">
+                    <div>
+                        <p class="font-medium text-gray-800">@doc.Title</p>
+                        <p class="text-sm text-gray-500">@doc.Description</p>
+                    </div>
+                    <a href="@doc.Url" download class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition text-sm">
+                        Download
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <!-- External Links Section -->
+    <div>
+        <h3 class="text-xl font-semibold text-gray-700 mb-4">🌐 Informational Links</h3>
+        <ul class="space-y-3">
+            @foreach (var link in ExternalLinks)
+            {
+                <li class="flex items-center bg-white shadow border rounded p-4 hover:bg-gray-50 transition">
+                    <div class="flex-1">
+                        <p class="font-medium text-gray-800">@link.Title</p>
+                        <a href="@link.Url" target="_blank" class="text-blue-600 hover:underline text-sm">@link.Url</a>
+                    </div>
+                    <span class="ml-2 text-gray-400">🔗</span>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+@code {
+    private List<DocumentItem> Documents = new()
+    {
+        new DocumentItem { Title = "Staff Handbook", Description = "Guidelines and procedures for staff", Url = "/mockdocs/staff-handbook.pdf" },
+        new DocumentItem { Title = "Equipment Manual", Description = "Instructions for handling park equipment", Url = "/mockdocs/equipment-manual.pdf" },
+        new DocumentItem { Title = "Emergency Protocols", Description = "Steps to take during emergency situations", Url = "/mockdocs/emergency-protocols.pdf" }
+    };
+
+    private List<ExternalLinkItem> ExternalLinks = new()
+    {
+        new ExternalLinkItem { Title = "Health & Safety Ontario", Url = "https://www.ontario.ca/page/health-and-safety" },
+        new ExternalLinkItem { Title = "Weather Canada", Url = "https://weather.gc.ca/" },
+        new ExternalLinkItem { Title = "Workplace Safety Guidelines", Url = "https://www.ccohs.ca/topics/programs/safety/" }
+    };
+
+    public class DocumentItem
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string Url { get; set; }
+    }
+
+    public class ExternalLinkItem
+    {
+        public string Title { get; set; }
+        public string Url { get; set; }
+    }
+}

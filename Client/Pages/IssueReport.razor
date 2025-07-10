@@ -1,0 +1,135 @@
+﻿@page "/report-issue"
+@using GreensProPWA.Shared.Entity
+@using Microsoft.AspNetCore.Components.Authorization
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthStateProvider
+
+<h2 class="text-2xl font-bold text-gray-800 mb-4">Report an Issue</h2>
+
+<EditForm Model="report" OnValidSubmit="Submit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Submitted By (auto-filled for non-admin) -->
+        <div>
+            <label class="block text-sm font-medium text-gray-700">Submitted By</label>
+            <InputText @bind-Value="report.SubmittedBy" class="mt-1 block w-full border rounded p-2" readonly />
+        </div>
+
+        <!-- Category -->
+        <div>
+            <label class="block text-sm font-medium text-gray-700">Category</label>
+            <select @bind="report.Category" class="mt-1 block w-full border rounded p-2">
+                <option value="Equipment">Equipment</option>
+                <option value="Facility">Facility</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <!-- Title -->
+        <div class="md:col-span-2">
+            <label class="block text-sm font-medium text-gray-700">Title *</label>
+            <InputText @bind-Value="report.Title" class="mt-1 block w-full border rounded p-2" />
+        </div>
+
+        <!-- Description -->
+        <div class="md:col-span-2">
+            <label class="block text-sm font-medium text-gray-700">Description (optional)</label>
+            <InputTextArea @bind-Value="report.Description" class="mt-1 block w-full border rounded p-2 min-h-[100px]" />
+        </div>
+
+        <!-- Upload Image -->
+        <div class="md:col-span-2">
+            <label class="block text-sm font-medium text-gray-700">Upload Photo (optional)</label>
+            <InputFile OnChange="HandleImageUpload" class="mt-1 block w-full border rounded p-2 bg-white" />
+        </div>
+
+        @if (!string.IsNullOrEmpty(report.ImageBase64))
+        {
+            <div class="md:col-span-2">
+                <img src="@report.ImageBase64" class="border mt-2 w-48 h-auto rounded shadow" />
+            </div>
+        }
+
+        <!-- Submit Button -->
+        <div class="md:col-span-2">
+            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+                Submit Issue
+            </button>
+        </div>
+
+        <!-- Success Message -->
+        @if (showSuccess)
+        {
+            <div class="mt-4 bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded shadow" role="alert">
+                <strong class="font-bold">Success!</strong>
+                <span class="ml-2">Issue reported successfully!</span>
+                <button @onclick="() => showSuccess = false" class="ml-4 float-right font-bold hover:text-green-900">✕</button>
+            </div>
+        }
+    </div>
+</EditForm>
+
+@code {
+    private IssueReports report = new();
+    private bool showSuccess = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var auth = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = auth.User;
+
+        if (user.Identity?.IsAuthenticated ?? false)
+        {
+            report.SubmittedBy = user.FindFirst("FullName")?.Value
+                ?? user.FindFirst("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name")?.Value
+                ?? user.FindFirst("email")?.Value
+                ?? "Anonymous";
+        }
+    }
+
+    private async Task Submit()
+    {
+        report.CreatedAt = DateTime.UtcNow;
+        await Http.PostAsJsonAsync("api/issues", report);
+
+        showSuccess = true;
+        StateHasChanged();
+        await Task.Delay(3000);
+        showSuccess = false;
+
+        var name = report.SubmittedBy;
+        report = new() { SubmittedBy = name };
+    }
+
+    private async Task HandleImageUpload(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        if (file != null)
+        {
+            using var stream = file.OpenReadStream(5_000_000); // Max 5MB
+            using var ms = new MemoryStream();
+            await stream.CopyToAsync(ms);
+            report.ImageBase64 = $"data:{file.ContentType};base64,{Convert.ToBase64String(ms.ToArray())}";
+        }
+    }
+
+    public class IssueReports
+    {
+        public int Id { get; set; }
+
+        public string SubmittedBy { get; set; } = string.Empty; // optional for now
+
+        public string Category { get; set; } = "General"; // e.g., "Equipment", "Facility", "Other"
+
+        public string Title { get; set; } = string.Empty;  // short headline like "Mower not starting"
+
+        public string Description { get; set; } = string.Empty;  // optional details
+
+        public string? ImageBase64 { get; set; }  // optional image (camera/photo upload)
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+    }
+}

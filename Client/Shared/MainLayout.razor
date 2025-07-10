@@ -1,0 +1,91 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims
+@inject AuthenticationStateProvider AuthStateProvider
+@inherits LayoutComponentBase
+
+
+
+
+@code {
+    private string? userRole;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        // if (user.Identity?.IsAuthenticated ?? false)
+        // {
+        //     userRole = user.FindFirst(c => c.Type == "role")?.Value;
+        // }
+        if (user.Identity?.IsAuthenticated ?? false)
+        {
+            // Read either claim type
+            userRole = user.FindFirst(ClaimTypes.Role)?.Value
+                       ?? user.FindFirst("role")?.Value
+                       ?? "Unknown";
+        }
+        else
+        {
+            userRole = "Guest";
+        }
+    }
+
+    private bool IsAdmin => userRole == "Admin";
+}
+
+<HeadContent>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</HeadContent>
+
+    <div class="page">
+        <div class="sidebar">
+           @* <AuthorizeView Roles="Admin">
+                <Authorized>
+                    <NavMenuAdmin />
+                </Authorized>
+            <NotAuthorized>
+                <NavMenu />  <!-- This shows for users NOT in Admin role -->
+            </NotAuthorized>
+            </AuthorizeView> *@
+        <NavMenu IsAdmin="@IsAdmin" />
+
+    
+        </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+        @* <p class="text-white bg-dark p-2"></p> *@
+
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main> 
+</div>
+
+
+
+
+@* 
+    @inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+*@

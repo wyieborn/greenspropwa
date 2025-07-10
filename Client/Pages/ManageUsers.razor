@@ -1,0 +1,118 @@
+﻿@page "/admin/users"
+@inject HttpClient Http
+@using GreensProPWA.Shared.Entity
+
+<h3 class="text-3xl font-extrabold mb-6 text-gray-800">Manage Users</h3>
+
+@if (users == null)
+{
+    <p class="text-gray-500">Loading...</p>
+}
+else
+{
+    <table class="min-w-full table-auto border-collapse border border-gray-300 shadow-sm">
+        <thead class="bg-gray-100">
+            <tr>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">Full Name</th>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">Email</th>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">Role</th>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">IsTrainer</th>
+                <th class="border border-gray-300 px-6 py-3 text-left text-gray-700 uppercase tracking-wider">Actions</th>
+
+
+            </tr>
+        </thead>
+        <tbody class="bg-white divide-y divide-gray-200">
+            @foreach (var user in users)
+            {
+                <tr>
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">@user.FullName</td>
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">@user.Email</td>
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">@user.Role</td>
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">@user.IsTrainer</td>
+
+                    <td class="border border-gray-300 px-6 py-4 whitespace-nowrap">
+                        <button @onclick="() => EditUser(user)" class="text-blue-600 hover:text-blue-800 font-semibold mr-3">Edit</button>
+                        <button @onclick="() => DeleteUser(user.Id)" class="text-red-600 hover:text-red-800 font-semibold">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<hr class="my-8 border-gray-300" />
+
+<h4 class="text-2xl font-semibold text-gray-800 mb-4">@((editingUser.Id == 0) ? "Add New User" : "Edit User")</h4>
+
+<EditForm Model="@editingUser" OnValidSubmit="SaveUser" class="max-w-md space-y-4">
+    <InputText @bind-Value="editingUser.FullName" placeholder="Full Name"
+               class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+
+    <InputText @bind-Value="editingUser.Email" placeholder="Email"
+               class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+    <InputText @bind-Value="editingUser.PasswordHash" placeholder="Password"
+               class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+
+    <select @bind="editingUser.Role" class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        <option value="">Select Role</option>
+        <option value="Admin">Admin</option>
+        <option value="Staff">Staff</option>
+    </select>
+
+    <div class="flex items-center space-x-2">
+        <InputCheckbox @bind-Value="editingUser.IsTrainer" class="form-checkbox h-5 w-5 text-indigo-600" />
+        <label class="text-gray-700">Is Trainer</label>
+    </div>
+
+    <button type="submit"
+            class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded w-full">
+        @((editingUser.Id == 0) ? "Add" : "Update")
+    </button>
+</EditForm>
+
+
+
+@code {
+    private List<User> users = new();
+    private User editingUser = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await Http.GetFromJsonAsync<List<User>>("api/users") ?? new();
+    }
+
+    private async Task SaveUser()
+    {
+        if (editingUser.Id == 0)
+        {
+            var response = await Http.PostAsJsonAsync("api/users", editingUser);
+            var created = await response.Content.ReadFromJsonAsync<User>();
+            if (created != null) users.Add(created);
+        }
+        else
+        {
+            await Http.PutAsJsonAsync($"api/users/{editingUser.Id}", editingUser);
+        }
+
+        editingUser = new();
+        users = await Http.GetFromJsonAsync<List<User>>("api/users") ?? new();
+    }
+
+    private void EditUser(User user)
+    {
+        editingUser = new User
+        {
+            Id = user.Id,
+            FullName = user.FullName,
+            Email = user.Email,
+            Role = user.Role
+        };
+    }
+
+    private async Task DeleteUser(int id)
+    {
+        await Http.DeleteAsync($"api/users/{id}");
+        users = await Http.GetFromJsonAsync<List<User>>("api/users") ?? new();
+    }
+}

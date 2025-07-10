@@ -1,0 +1,11 @@
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\bin\Debug\net6.0\GreensProPWA.Shared.deps.json
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\bin\Debug\net6.0\GreensProPWA.Shared.dll
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\bin\Debug\net6.0\GreensProPWA.Shared.pdb
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\obj\Debug\net6.0\GreensProPWA.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\obj\Debug\net6.0\GreensProPWA.Shared.AssemblyInfoInputs.cache
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\obj\Debug\net6.0\GreensProPWA.Shared.AssemblyInfo.cs
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\obj\Debug\net6.0\GreensProPWA.Shared.csproj.CoreCompileInputs.cache
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\obj\Debug\net6.0\GreensProPWA.Shared.dll
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\obj\Debug\net6.0\refint\GreensProPWA.Shared.dll
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\obj\Debug\net6.0\GreensProPWA.Shared.pdb
+C:\Users\wyieb\source\repos\GreensProPWA\Shared\obj\Debug\net6.0\ref\GreensProPWA.Shared.dll
