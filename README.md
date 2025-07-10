@@ -1,6 +1,6 @@
 # GreensPro PWA 🏌️‍♂️
 
-**GreensPro PWA** is a Progressive Web App (PWA) designed to manage day-to-day operations at clubs or recreational facilities. It supports event scheduling, staff training tracking (with trainer signatures), greenskeeping activities,etc.
+**GreensPro**,  a Progressive Web App (PWA) designed to manage day-to-day operations at clubs or recreational facilities. It supports event scheduling, staff training tracking (with trainer signatures), greenskeeping activities,etc.
 
 Built with **Blazor WebAssembly**, **ASP.NET Core**, and **PostgreSQL**, the app is optimized for offline access and cross-device usage.
 
